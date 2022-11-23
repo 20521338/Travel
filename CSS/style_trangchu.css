@@ -1,0 +1,78 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.cover_img {
+  background-image: url('/images/cot_co.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Bac_Trung_Nam{
+  height: 100%; 
+  background-size: cover;
+}
+
+.header_text{
+  font-size: 100px;
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  text-align: center;
+  top: 35%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.arrow {
+  height: 20px;
+  width: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 3px 3px 0px;
+  transform: rotate(45deg);
+  right: 50%;
+  position: absolute;
+  bottom: 10%;
+
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.Mien_Nam {
+  background-image: url('/images/51236486048_7fbdbc2c75_o.jpg');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95% 90%;
+  background-color: black;
+}
+
+.Mien_Bac {
+  background-image: url('/images/halong-bay-2981311.jpg');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95% 90%;
+  background-color: black;
+}
+
+.Mien_Trung {
+  background-image: url('/images/phocohoian.jpg');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95% 90%;
+  background-color: black;
+}
