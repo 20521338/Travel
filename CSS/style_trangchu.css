@@ -76,3 +76,27 @@ html {
   background-size: 95% 90%;
   background-color: black;
 }
+
+.menu_bars ,.menu_close{
+  color: white;
+  right: 3%;
+  top: 10%;
+  position: fixed;
+  opacity: 0.5;
+}
+
+table, th, td{
+  border: 1px solid white;
+  border-collapse: collapse;  
+}
+
+#menu{
+  top:0%;
+  width: 100%;
+  background-color: black;
+  height: 60%;
+  position: fixed;
+  color: white;
+  border-bottom: 1px solid;
+  opacity: 0.5px;
+}

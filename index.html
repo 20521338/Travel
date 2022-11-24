@@ -6,20 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
     <link rel="stylesheet" href="CSS/style_trangchu.css">
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
     <script type="text/javascript" src="javascript/scripts"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#menu").hide();
+            $("#bars").click(function(){
+                $("#menu").slideDown();
+                $("#bars").hide();
+            });
+            $("#close").click(function(){
+                $("#menu").slideUp();
+                $("#bars").show();
+            });
+        });
+    </script>
 </head>
 <body>
+    <!--Trang chủ-->
     <div class="cover_img">
         <div class="header_text">VÒNG QUANH VIỆT NAM</div>
         <a href="#Bac_Trung_Nam">
             <div class="arrow"></div>
         </a>
     </div>
-
+    <!--Bắc Trung Nam-->
     <div id="Bac_Trung_Nam">
         <div class="Mien_Bac"></div>
         <div class="Mien_Trung"></div>
         <div class="Mien_Nam"></div>
+    </div>
+
+    <!--Tạo menu-->
+    <div class="menu_bars">
+        <i class="fa-solid fa-bars-staggered fa-2x" id="bars"></i>
+    </div>
+    <div id="menu">
+        <div class="menu_close"><i class="fa-solid fa-xmark fa-2x" id="close"></i></div>
+        <table>
+            <tr>
+                    
+            </tr>
+        </table>
     </div>
 </body>
 </html> 
