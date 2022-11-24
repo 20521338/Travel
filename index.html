@@ -11,14 +11,18 @@
     <link href="fontawesome/css/solid.css" rel="stylesheet">
     <script type="text/javascript" src="javascript/scripts"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!--Hiệu ứng của menu bars-->
     <script>
         $(document).ready(function(){
             $("#menu").hide();
             $("#bars").click(function(){
-                $("#menu").slideDown();
                 $("#bars").hide();
+                $("#menu").slideDown();
+                $("#close").show();
             });
             $("#close").click(function(){
+                $("#close").hide();
                 $("#menu").slideUp();
                 $("#bars").show();
             });
@@ -33,6 +37,7 @@
             <div class="arrow"></div>
         </a>
     </div>
+
     <!--Bắc Trung Nam-->
     <div id="Bac_Trung_Nam">
         <div class="Mien_Bac"></div>
