@@ -99,4 +99,19 @@ table, th, td{
   color: white;
   border-bottom: 1px solid;
   opacity: 0.5px;
+  text-align: center;
+  padding-top: 5%;
+}
+.img_menu{
+  object-fit: cover;
+  object-position: 80% 0%;
+  width: 420px;
+  height: 300px;
+  padding-top: 5px;
+}
+.text_menu{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
 }
