@@ -26,7 +26,7 @@ footer  .noi-dung.about h2:before{
     position: absolute;
     bottom: -5px;
     left: 0;
-    width: 50px;
+    width:28%;
     height: 2px;
     background: red;
 }
@@ -80,7 +80,7 @@ footer  .noi-dung.about p{
     position: absolute;
     bottom: -5px;
     left: 0;
-    width: 50px;
+    width: 35%;
     height: 2px;
     background: red;
 }
@@ -116,7 +116,7 @@ footer  .noi-dung.about p{
     position: absolute;
     bottom: -5px;
     left: 0;
-    width: 50px;
+    width: 47%;
     height: 2px;
     background: red;
 }
