@@ -125,5 +125,15 @@
   justify-content: center;
   align-items: center;
 }
-
-
+.Bac_map{
+  padding-left: 50px;
+  padding-top: 10px;
+  position: fixed;
+  position: absolute;
+}
+.loacte_sapa{
+  position: fixed;
+  color: red;
+  padding-left: 150px;
+  padding-top: 40px;
+}
