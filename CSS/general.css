@@ -41,8 +41,6 @@ a.link__destinationhome--green
 
 /* BEGIN: HEADER */
 .header {
-    position: fixed;
-    display: flex;
     background-color: #fff;
     top: 0;
     right: 0;
@@ -56,6 +54,8 @@ a.link__destinationhome--green
 
 .header .logo-container img:first-child {
     padding-right: 12px;
+    position: absolute;
+    top:10px;
 }
 
 .search-bar-container {

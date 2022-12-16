@@ -31,6 +31,46 @@
             $(".login").show()
         });
     });
+    $(document).ready(function() {
+        $("#sapa").mouseenter(function(){
+            $("#locate_sapa").css("color","red");
+        });
+        $("#sapa").mouseout(function(){
+            $("#locate_sapa").css("color","white");
+        });
+    });
+    $(document).ready(function() {
+        $("#mocchau").mouseenter(function(){
+            $("#locate_mocchau").css("color","red");
+        });
+        $("#mocchau").mouseout(function(){
+            $("#locate_mocchau").css("color","white");
+        });
+    });
+    $(document).ready(function() {
+        $("#halong").mouseenter(function(){
+            $("#locate_halong").css("color","red");
+        });
+        $("#halong").mouseout(function(){
+            $("#locate_halong").css("color","white");
+        });
+    });
+    $(document).ready(function() {
+        $("#hanoi").mouseenter(function(){
+            $("#locate_hanoi").css("color","red");
+        });
+        $("#hanoi").mouseout(function(){
+            $("#locate_hanoi").css("color","white");
+        });
+    });
+    $(document).ready(function() {
+        $("#coto").mouseenter(function(){
+            $("#locate_coto").css("color","red");
+        });
+        $("#coto").mouseout(function(){
+            $("#locate_coto").css("color","white");
+        });
+    });
 </script>
 <!--COMMENT PUSH PULL-->
 
@@ -38,10 +78,15 @@
     <div class="app">
         <!-- BEGIN: HEADER -->
         <div class="header">
+            <div class="search__destination">
+                <input type="text" placeholder="Tìm kiếm địa điểm bạn mong muốn " class="searchbar__destination"
+                    maxlength="100" size="35">
+            </div>
             <div class="logo-container">
                 <a href="index.html">
                     <img src="images/homepng.png" alt="" width="50px">
                 </a>
+                
             </div>
         </div>
 
@@ -63,7 +108,7 @@
                         <tr>
                             <td>
                                 <h4 class="header__destination--lighter">
-                                    <a href = "" class = "link__destination--blacknoline">SaPa</a>
+                                    <a href = "" class = "link__destination--blacknoline" id="sapa">SaPa</a>
                                 </h4>
                             </td>
                         </tr>
@@ -83,7 +128,7 @@
                         <tr>
                             <td>
                                 <h4 class="header__destination--lighter">
-                                    <a href = ""  class = "link__destination--blacknoline">Mộc Châu</a>
+                                    <a href = ""  class = "link__destination--blacknoline" id="mocchau">Mộc Châu</a>
                                 </h4>
                             </td>
                         </tr>
@@ -104,7 +149,7 @@
                         <tr>
                             <td>
                                 <h4 class="header__destination--lighter">
-                                    <a href = "" class = "link__destination--blacknoline">Vịnh Hạ Long</a>
+                                    <a href = "" class = "link__destination--blacknoline" id="halong">Vịnh Hạ Long</a>
                                 </h4>
                             </td>
                         </tr>
@@ -124,7 +169,7 @@
                         <tr>
                             <td>
                                 <h4 class="header__destination--lighter">
-                                    <a href = ""  class = "link__destination--blacknoline">Hà Nội</a>
+                                    <a href = ""  class = "link__destination--blacknoline" id="hanoi">Hà Nội</a>
                                 </h4>
                             </td>
                         </tr>
@@ -145,7 +190,7 @@
                         <tr>
                             <td>
                                 <h4 class="header__destination--lighter">
-                                    <a href = "" class = "link__destination--blacknoline">Đảo Cô Tô</a>
+                                    <a href = "" class = "link__destination--blacknoline" id="coto">Đảo Cô Tô</a>
                                 </h4>
                             </td>
                         </tr>
@@ -162,17 +207,25 @@
             </div>
 
             <div id="rightpane__destination">
-                <div class="loacte_sapa">
-                    <i class="fa-solid fa-location-dot fa-2x"></i>
-                </div>
-                
-                <div>
-                    <img src="images/ban-do-mien-bac-chi-tiet-nhat-1.png" class="Bac_map">
-                </div>
-                <div class="search__destination">
-                    <h2 class="header__destination--lightersmaller">SEARCH</h2>
-                    <input type="text" placeholder="Tìm kiếm địa điểm bạn mong muốn " class="searchbar__destination"
-                        maxlength="100" size="35">
+                <div class="maps">
+                    <div>
+                        <img src="images/ban-do-mien-bac-chi-tiet-nhat-1.png" class="Bac_map">
+                    </div>
+                    <div class="loacte_sapa" id="locate_sapa">
+                        <i class="fa-solid fa-location-dot fa-2x"></i>
+                    </div>
+                    <div class="loacte_mocchau" id="locate_mocchau">
+                        <i class="fa-solid fa-location-dot fa-2x"></i>
+                    </div>
+                    <div class="loacte_halong" id="locate_halong">
+                        <i class="fa-solid fa-location-dot fa-2x"></i>
+                    </div>
+                    <div class="loacte_hanoi" id="locate_hanoi">
+                        <i class="fa-solid fa-location-dot fa-2x"></i>
+                    </div>
+                    <div class="loacte_coto" id="locate_coto">
+                        <i class="fa-solid fa-location-dot fa-2x"></i>
+                    </div>
                 </div>
             </div>
             
