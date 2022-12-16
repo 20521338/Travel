@@ -41,8 +41,6 @@ a.link__destinationhome--green
 
 /* BEGIN: HEADER */
 .header {
-    position: fixed;
-    background-color: #fff;
     top: 0;
     right: 0;
     left: 0;
@@ -58,6 +56,10 @@ a.link__destinationhome--green
     top:10px;
     text-align: left;
     top: 5px;
+}
+.UP{
+    position: fixed;
+    top:50%
 }
 
 .search-bar-container {
