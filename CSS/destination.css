@@ -71,6 +71,18 @@
   box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+.destination__item2 {
+  float: left;
+  width: 900px;
+  height: 1000px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 70px;
+  margin-right: 50px;
+
+
+}
+
 .image__destinationitemcustom {
   padding: 10px;
   width: 270px;
