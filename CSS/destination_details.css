@@ -1,4 +1,4 @@
- .bannercontainer__destinationdetail
+ .bannerc
   {
       position: relative;
       color: white;
@@ -8,7 +8,7 @@
       margin-right: auto;
   }
 
-  .topbanner__destinationdetail
+  .topbannerc
   {
     width: 100%;
     height: 670px;
@@ -17,7 +17,7 @@
     filter: brightness(70%);
   }
 
-  .title__destinationdetail
+  .titlec
   {
     position: absolute;
     bottom: 40px;
@@ -28,7 +28,7 @@
     font-size: 70px;
   }
 
-  .title__destination--subdetail
+  .title--subc
   {
     position: absolute;
     bottom: 1px;
@@ -38,7 +38,7 @@
     font-size: 14px;
   }
 
-  .middle__destinationdetail
+  .middle-detail
   {
     height: 2500px;
     width: 100%;
@@ -46,7 +46,7 @@
     padding:10px;
   }
 
-  .destination__itemdetail
+  .itemdetail
   { 
     width: 1200px;
     height: 3500px;
@@ -60,12 +60,12 @@
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
   }
 
-  .image__destinationitemcustom
+  .imageitemcustom
   {
     padding: 10px;
     width: 270px;
     height: 270px;
-    border-radius: 5px;
+    border-radius: 20px;
     float: left;
   }
 
@@ -96,14 +96,14 @@
     padding:10px;
   }
 
-  .linecontent__dest
+  .linehr
   {
   
     margin-left: 20px;
     height: 1px;
   }
 
-  .left__direction
+  .previous
   {
       float: left;
       padding: 10px;
@@ -111,7 +111,7 @@
       margin-top: 30px;
   }
 
-  .right__direction
+  .next
   {   
       float: right;
       padding: 10px;
@@ -122,10 +122,11 @@
 .map__embedded--resize
 {
   margin-left: 20px;
-  padding:10px;width: 1100px; 
+  padding:10px;
+  width: 1100px; 
   display: block;
   margin-left: auto;
   margin-right: auto;
-   height: 600px;
+   height: 630px;
 }
 

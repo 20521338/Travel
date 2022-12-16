@@ -1,21 +1,3 @@
-.fw-5 {
-    font-weight: 500;
-}
-
-a:hover.link__destinationhome--green
-{
-    color: rgb(0, 173, 0);
-    text-decoration: none;
-}
-
-a.link__destinationhome--green
-{
-    color: white;
-    text-decoration: none;
-}
-:root {
-    --header-height: 10vh;
-}
 
 .all {
     position: relative;
@@ -24,7 +6,7 @@ a.link__destinationhome--green
     height: 2000px;
 }
 
-/* BEGIN: HEADER */
+/* HEADER */
 .header {
     position: fixed;
     background-color: white;
@@ -44,14 +26,23 @@ a.link__destinationhome--green
     text-align: left;
     top: 5px;
 }
-.UP{
-    position: fixed;
-    top:80%
 
+/* HEADER */
+.fw-5 {
+    font-weight: 500;
 }
 
+a:hover.linkhome--blue
+{
+    color: blue;
+    text-decoration: none;
+}
 
-
-
-
-/* END: HEADER */
+a.linkhome--blue
+{
+    color: white;
+    text-decoration: none;
+}
+:root {
+    --header-height: 10vh;
+}
