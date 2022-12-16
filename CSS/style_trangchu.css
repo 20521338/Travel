@@ -3,6 +3,7 @@ body, html {
   width: 100%;
   margin: auto;
 }
+
 .cover_img {
   background-image: url('/images/cot_co.jpg');
   height: 100%; 
@@ -51,7 +52,7 @@ html {
 
 
 .Mien_Nam {
-  background-image: url('/images/51236486048_7fbdbc2c75_o.jpg');
+  background-image: url('/images/di_an_h-b4V9agShreI-unsplash.jpg');
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +61,7 @@ html {
 }
 
 .Mien_Bac {
-  background-image: url('/images/halong-bay-2981311.jpg');
+  background-image: url('/images/vinhhalong.jpg');
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -69,12 +70,35 @@ html {
 }
 
 .Mien_Trung {
-  background-image: url('/images/phocohoian.jpg');
+  background-image: url('/images/hoian.jpg');
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: 95% 90%;
   background-color: black;
+}
+
+.Mien_Bac table, .Mien_Nam table, .Mien_Trung table{
+  position: relative;
+  color: white;
+  width: 500px;
+  margin-left: 33%;
+  top: 20%;
+  font-family: Graphik, Arial, Helvetica, sans-serif, sans-serif;
+  font-size: 15px;
+  line-height: 1.33;
+}
+
+.Chitiet ,.MienBac{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Chitiet:hover{
+  transition: 1.5s;
+  background-color: black;
+
 }
 
 .menu_bars ,.menu_close{
