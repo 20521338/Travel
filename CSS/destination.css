@@ -52,6 +52,7 @@
   width: 30%;
   float: right;
   background-color: cadetblue;
+
 }
 
 .clear {
@@ -106,9 +107,10 @@
   width: 300px;
   height: 300px;
   padding: 10px;
-  margin-top: 60px;
-  margin-left: 50px;
+  margin-top: 0px;
+  margin-left: 60px;
   margin-right: auto;
+  position: absolute;
 }
 
 .header__destination--lightersmaller {
@@ -137,5 +139,41 @@
   justify-content: center;
   align-items: center;
 }
-
-
+.Bac_map{
+  padding-left: 50px;
+  padding-top: 10px;
+  position: fixed;
+}
+.loacte_sapa{
+  position: fixed;
+  color: white;
+  padding-left: 150px;
+  padding-top: 40px;
+}
+.loacte_mocchau{
+  position: fixed;
+  color: white;
+  padding-left: 150px;
+  padding-top: 110px;
+}
+.loacte_halong{
+  position: fixed;
+  color: white;
+  padding-left: 350px;
+  padding-top: 110px;
+}
+.loacte_hanoi{
+  position: fixed;
+  color: white;
+  padding-left: 260px;
+  padding-top: 120px;
+}
+.loacte_coto{
+  position: fixed;
+  color: white;
+  padding-left: 370px;
+  padding-top: 125px;
+}
+.maps{
+  padding-top: 0px;
+}
