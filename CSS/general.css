@@ -42,20 +42,21 @@ a.link__destinationhome--green
 /* BEGIN: HEADER */
 .header {
     position: fixed;
-    display: flex;
     background-color: #fff;
     top: 0;
     right: 0;
     left: 0;
-    height: var(--header-height);
-    padding: 0px 30px;
-    align-items: center;
-    justify-content: space-between;
+    padding: 0px 20px;
+    text-align: center;
+    color: black;
     z-index: 1000;
 }
 
-.header .logo-container img:first-child {
+.header .logo-container {
+    position: absolute;
     padding-right: 12px;
+    text-align: left;
+    top: 5px;
 }
 
 .search-bar-container {
