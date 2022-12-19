@@ -8,6 +8,9 @@
       margin-right: auto;
   }
 
+  .content2{
+    height: 4100px;
+  }
   .topbannerc
   {
     width: 100%;
@@ -40,9 +43,9 @@
 
   .middle-detail
   {
-    height: 2500px;
+    height: 3500px;
     width: 100%;
-    background-color: #F7F7F7;
+    background-color: white;
     padding:10px;
   }
 
