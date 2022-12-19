@@ -50,14 +50,14 @@
 
 #leftpane {
   float: left;
-  background-color: rgb(119, 176, 250);
+  background-color: rgb(186, 233, 252);
   width: 67%;
   border-radius: 20px;
 }
 
 #rightpane {
   float: right;
-  background-color: rgb(219, 85, 85);
+  background-color: rgb(247, 213, 192);
   width: 67%;
   border-radius: 20px;
 }
