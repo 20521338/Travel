@@ -88,6 +88,12 @@
   text-decoration: none;
 }
 
+.link--white
+{
+  color:white;
+  text-decoration: none;
+}
+
 .clear {
   clear: both;
 }
