@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phú Quốc</title>
 
+    <link rel="stylesheet" href="css/location.css">
     <link rel="stylesheet" href="css/destination.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel = "stylesheet" href = "css/index.css">
     <link rel = "stylesheet" href = "css/destination_details.css">
+    <link rel = "stylesheet" href = "css/location_details.css">
     <link rel = "stylesheet" href = "css/css-footer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -22,11 +24,18 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/966b4c031d.js" crossorigin="anonymous"></script>
-
+    <style>
+        @font-face{
+            font-family: UTM;
+            src:url('/fonts/UTM\ Wedding\ K_T.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
     
 </head>
 <body>
-    <div class="app">
+    <div class="all">
         <!--HEADER -->
         <div class="header">
             <h1>VÒNG QUANH VIỆT NAM</h1>
@@ -49,14 +58,16 @@
         <!--BANNER-->
 
         <!--NỘI DUNG-->
-        <div class = "content">
+        <div class = "content2">
                 <div class = "middle-detail"> 
                     <div class = itemdetail>
                         
                         <!--CHÀO MỪNG-->
                         <h1 class = "title__contentdest">Chào mừng đến với Phú QUốc!</h1>
                         <p class = "item__contentdest">
-                            Phú Quốc là một địa điểm du lịch nổi tiếng.......<br><br>
+                            Quần đảo Phú Quốc nằm trong vịnh Thái Lan, cách TP HCM khoảng 400 km về hướng tây. Nơi đây thu hút du khách trong và ngoài nước bởi các loại hình du lịch đa dạng, với tài nguyên biển, đảo phong phú; hệ sinh thái rừng, biển đa dạng. <br>
+
+                            Vùng biển Phú Quốc có 22 hòn đảo lớn, nhỏ, tổng diện tích khoảng 589,23 km2. Trong đó, đảo Phú Quốc lớn nhất được chia thành bắc đảo và nam đảo. Thị trấn Dương Đông nằm ở trung tâm.<br><br>
                         </p>
                         <!--CHÀO MỪNG--> 
 
@@ -64,7 +75,16 @@
                         <i class="fas fa-info-circle" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i> <span style = "color: gray; font-weight: 100;">Thông tin</span>
                         <hr class = "linehr">
                         <p class = "item__contentdest">
-                            Chỗ này ghi thông tin........
+                            <h1 style="font-family:UTM; color: rgb(64, 140, 247); text-align: center;"><b> Phú Quốc mùa nào đẹp?</b></h1>
+                            Thời điểm lý tưởng nhất để du lịch Đảo Ngọc là từ khoảng tháng 11 đến tháng 4 năm sau. Đây là mùa khô ở phương Nam, trời ít mưa, biển lặng, sóng êm và nắng ấm thích hợp cho các hoạt động du lịch ngoài trời. Mùa này thích hợp cho những tour du lịch nghỉ dưỡng, không thích hợp cho khách đi bụi hoặc đi phượt. <br>
+
+                            Từ khoảng tháng 5 đến tháng 10 là mùa mưa, đôi khi có bão nhưng Phú Quốc vẫn đông khách do rơi vào khoảng thời gian nghỉ hè. Nếu đi Phú Quốc mùa này, bạn nên đến vào khoảng cuối tháng 4, lúc này khách vẫn chưa đông và thời tiết còn đẹp, giá cả cũng không tăng quá cao như mùa cao điểm. Tháng 10 cũng là thời điểm giao mùa nên ít mưa. <br>
+                            Vài trải nghiệm không nên bỏ lỡ khi du lịch Phú Quốc:
+                            <li>Câu Cá – Lặn Ngắm San Hô Quần Đảo An Thới</li>
+                            <li>Leo Núi Tắm Suối – Khám Phá Rừng Nguyên Sinh</li>
+                            <li>Ngắm Hoang Hôn Bãi Trường</li>
+                            <li>Thả Mình Cùng Làn Nước Trong Xanh Ở Bãi Sao</li>
+                            <li>Vi Vu Cáp Treo Hòn Thơm + Khám Phá Nam Đảo...</li>
                         </p>
                         <!--THÔNG TIN-->
 
@@ -72,22 +92,39 @@
                         <i class="fas fa-camera" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i> <span style = "color: gray; font-weight: 100;">CÁC HÌNH ẢNH</span>
 
                         <hr class = "linehr">
-
-                        <img src = "images/MienNam/du-lich-phu-quoc_1637126231.jpg" class = "image__sight">
-                        <img src = "images/MienNam/shutterstock-1528713263-5275-1-9438-7316-1649405357.jpg" class = "image__sight">   
-                        <img src = "images/MienNam/shutterstock-191466686-2286-15-3897-5114-1649405350.jpg" class = "image__sight">
+                        <h1 style="font-family:UTM; color: rgb(64, 140, 247); text-align: center;"> <b> Chơi đâu?</b></h1>
+                        <p class="noidung"> <b> Vườn quốc gia Phú Quốc</b> có diện tích hơn 31.400 ha, là nơi sinh sống của hàng trăm loài động, thực vật và đa dạng hệ sinh thái núi, rừng, biển, thác, suối. Ở đây, bạn sẽ được khám phá thảm thực vật tươi tốt, chiêm ngưỡng những con suối tinh khiết như suối Tranh, suối Đá Bàn, suối Đá Ngọn.</p>
+                        <img src = "images/MienNam/vuonquocgia.jpg" class = "image__sight">
+                        <div style="text-align: center;">
+                            <i> Vườn quốc gia Phú Quốc </i>
+                        </div>
+                        <p class="noidung"> 
+                            <b> Bãi Trường </b> dài khoảng 20 km, là một trong những điểm ngắm hoàng hôn đẹp nhất trên đảo ngọc. Tại đây, du khách có thể đến thăm câu lạc bộ Sunset Sanato Beach. Nơi này trang trí nhiều hoạt cảnh từ gỗ tre như cầu dẫn ra biển, đàn voi nước, ngôi nhà vỏ ốc, xích đu... để du khách lưu lại những hình ảnh đẹp trong ánh chiều vàng cam. <br>
+                            <b> Dinh Bà và Dinh Cậu</b> là 2 điểm đến linh thiêng nhất tại Phú Quốc, nằm tại thị trấn Dương Đông. Gắn với nhiều truyền thuyết về Cậu Quý, Cậu Tài, Chúa ngọc nương nương, Thủy Long Thánh Mẫu, đây là nơi ngư dân tới cầu an, cầu mưa thuận gió hòa, mùa đánh cá bội thu. Vào 15 tháng Giêng hàng năm, ở đây tổ chức các lễ hội lớn.
+                        </p>
+                        <img src = "images/MienNam/shutterstock-1528713263-5275-1-9438-7316-1649405357.jpg" class = "image__sight"> 
+                        <div style="text-align: center;">
+                            <i> Bãi Trường Phú Quốc </i>
+                        </div> 
+                        <p class="noidung">
+                            <b> Lặn biển Phú Quốc</b> một trong những hoạt động du lịch nổi bật hàng đầu tại đảo ngọc. Hệ thống đảo tại Phú Quốc không chỉ có cảnh quan nên thơ, mà còn sở hữu hệ sinh thái biển muôn hình vạn trạng, đặc biệt là những rạn san hô trù phú.
+                        </p> 
+                        <img src = "images/MienNam/lan-ngam-san-ho-phu-quoc-1.jpg.crdownload" class = "image__sight">
+                        <div style="text-align: center;">
+                            <i> Lặn ngắm san hô Phú Quốc</i>
+                        </div>
                     
                         <!--END HÌNH ẢNH-->
 
                         <!--MAP-->
-                        <i class="fas fa-map" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i> <span style = "color: gray; font-weight: 100;">Bản đồ</span>
-                        <hr class = "linehr">
-                        <iframe class = "map__embedded--resize" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d502580.0892080225!2d103.67722287658052!3d10.22872566448093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a78c62b49eda17%3A0x8aa79fbbdd72cdb!2zUGjDuiBRdeG7kWM!5e0!3m2!1svi!2s!4v1671427396934!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <i class="fas fa-map" style="font-size: 20px; margin-left: 20px;padding: 10px;color: gray;"></i> <span style = "color: gray; font-weight: 100;">Bản đồ</span>
+                            <hr class = "linehr">
+                            <iframe class = "map__embedded--resize" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d502580.0892080225!2d103.67722287658052!3d10.22872566448093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a78c62b49eda17%3A0x8aa79fbbdd72cdb!2zUGjDuiBRdeG7kWM!5e0!3m2!1svi!2s!4v1671427396934!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <!--MAP-->
 
 
 
-                        <hr style = "margin-top: 150px; ">
+                    
                         
                         <!--CHUYỂN ĐỔI PAGE-->
                         <div>
@@ -105,14 +142,16 @@
                                 </h1>
                             </div>
                         </div>
+                    </div>
                         <!--CHUYỂN ĐỔI PAGE-->
-                    
+                    </div>
                     </div>
         <!--NỘI DUNG-->
 
         <!--FOOTER -->
+        <div class="div_footer">
         <footer>
-
+            
             <!--Thông tin footer-->      
             <div class="noi-dung about">
                 <h2>Về Chúng Tôi</h2>
@@ -165,9 +204,8 @@
             </div>
                      
             </footer>
-            <!--FOOTER --> 
-                    </div>
-                </div>                         
+        </div>
+            <!--FOOTER -->                        
             </div>  
         </div>
 
