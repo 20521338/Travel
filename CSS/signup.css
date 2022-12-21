@@ -1,6 +1,6 @@
 
 
-.sign-up-box {
+.sign-up {
     width: 66%;
     margin: 0 auto;
     padding-top: 50px;
@@ -8,6 +8,7 @@
 
 .title {
     text-align: center;
+    padding-bottom: 2%;
 }
 
 .title a {
@@ -21,9 +22,9 @@
 }
 
 .form-box {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #b1b0b0;
     padding: 40px;
-    border-radius: 66px;
+    border-radius: 20px;
 }
 
 .input-field {
