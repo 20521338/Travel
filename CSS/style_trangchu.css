@@ -143,4 +143,7 @@ table, th, td{
   cursor: pointer;
 }
 
-
+.Nut{
+  background-color: brown;
+  width:110px;
+}
