@@ -139,6 +139,8 @@ table, th, td{
   position: relative;
   text-align: center;
 }
-
+.img_menu :hover {
+  cursor: pointer;
+}
 
 
