@@ -6,8 +6,11 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
-
+.div_footer{
+    margin-top: 500px;
+}
 /*Thiết Lập Cho Thành Phần Nội Dung*/
 footer .noi-dung{
     margin-right: 30px;
